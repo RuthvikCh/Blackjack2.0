@@ -1,0 +1,53 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>blackjack game</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+    <link rel="stylesheet" href="./blackjack.css">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css">
+</head>
+<body>
+    <div class="container-1">
+    <div>
+        <h1 class="gsans">Blackjack</h1>
+        <h2 class="gsans" id="head">Lets Play!</h2>
+    </div>
+    
+    
+    
+    <div class="row">
+        <div class="col-6">
+    <h3 class="gsans">Your Score:<span id="yourscore">0</span></h3>
+</div>
+<div class="col-6">
+    <h3 class="gsans">Dealer Score:<span id="botscore">0</span></h3>
+</div>
+</div>
+    <div class="container-2" style="background-image: url('https://images.unsplash.com/photo-1609818698346-8cb3be6e0bc0?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MzJ8fGdhbWJsaW5nfGVufDB8fDB8fA%3D%3D&auto=format&fit=crop&w=800&q=60")> 
+        
+        <div id="yourdiv" class="flex-box-container-1"></div><br>
+        
+
+        
+        <div id="botdiv" class="flex-box-container-2"></div><br>
+    </div>
+    <div class="button">
+        <button id="hitbtn" class="btn btn-primary gsans">Hit</button>
+        <button id="standbtn" class="btn btn-warning gsans">Stand</button>
+        <button class="btn btn-danger gsans" onClick="history.go(0)" VALUE="Refresh">Playagain</button>
+    </div>
+    <div>
+        <audio id="hitsound" src="./assets/swish.m4a"></audio>
+        <audio id="standsound" src="./assets/aww.mp3"></audio>
+        <audio id = "busted" src="./assets/mistake.mp3"></audio>
+        <audio id="wonsound"  src="./assets/cash.mp3"></audio>
+        
+    </div>
+    </div>
+</body>
+</html>
+
+<script src="./blackjack.js">
+</script>

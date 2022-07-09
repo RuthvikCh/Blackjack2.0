@@ -1,0 +1,120 @@
+@font-face {
+    font-family: "GoogleSans";
+    src: url(ProductSans-Light.ttf);
+    font-weight: 300;
+  }
+  @font-face {
+    font-family: "GoogleSans";
+    src: url(ProductSans-Regular.ttf);
+    font-weight: 400;
+    }
+   @font-face {
+    font-family: "GoogleSans";
+    src: url(ProductSans-Medium.ttf);
+    font-weight: 500;
+        }
+  @font-face {
+    font-family: "GoogleSans";
+    src: url(ProductSans-Black.ttf);
+    font-weight: 700;
+        }
+        
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;400;500;700;900&display=swap');
+  
+  .roboto{
+          font-family: 'Roboto', sans-serif;
+  }
+  .gsans{
+          font-family: GoogleSans;
+  
+  }
+
+#heading{
+    margin-left: 35%;
+    margin-right: 35%;
+    text-decoration: solid;
+    font-weight: bold;
+    color: rgb(8, 92, 19);
+    background-color: yellow;
+}
+.container-2{
+    display: flex;
+    border: 1px solid black;
+    flex-wrap: wrap;
+    flex: 1;
+    color: aliceblue;
+    height: 65vh !important;
+    justify-content: space-around;
+    width: auto;
+    background-size: cover;
+    
+    
+
+    
+}
+.btn{
+    width: 6rem;
+}
+.col-6 h2{
+    font-size: 1.6em;
+}
+#botdiv{
+    
+    margin: 2.5vh 0;
+    padding: 5px;
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    overflow: auto;
+max-height: 60vh;
+
+
+}
+#yourdiv{
+    margin: 2.5vh 0;
+    padding: 5px;
+    width: 48%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    flex-direction: row;
+    overflow: auto;
+max-height: 60vh;
+    
+}
+#yourdiv img ,#botdiv img {
+    padding: 0px 5px ;
+    
+}
+.container-1{
+    box-shadow: rgba(9, 30, 66, 0.25) 0px 1px 1px, rgba(9, 30, 66, 0.13) 0px 0px 1px 1px;
+    border-radius: 8px;
+    margin: 1rem;
+    padding: .5rem .5rem;
+    text-align: center;
+    justify-content: space-around;
+    height: auto;
+    width: auto;
+    
+    
+}
+
+.button{
+    padding: 3px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+#scorecard{
+    margin-left: 18cm;
+    
+}
+
+body{
+    background-color: aquamarine;
+}
+.flex-box-container-2{
+    border-left: 6px solid rgb(255, 255, 255);
+
+}
